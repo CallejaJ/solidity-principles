@@ -5,10 +5,10 @@ contract SimpleStorage {
     uint storedData;
 
     function set(uint x) public {
-        storedData = x;
+        storedData = multiply(storedData , x);
     }
 
-    function get() public view returns (uint) {
-        return storedData;
+     function multiply(uint a, uint b) pure public  returns (uint) {
+        return a * b ;
     }
 }

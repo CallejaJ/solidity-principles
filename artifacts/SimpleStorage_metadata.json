@@ -6,8 +6,19 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "get",
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "multiply",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -15,7 +26,7 @@
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
@@ -60,11 +71,11 @@
 	},
 	"sources": {
 		"contracts/SimpleStorage.sol": {
-			"keccak256": "0x5f67bf2981a67cad51df1785f194c6dd96f8fd88271e3bf4b861c66508e579e7",
+			"keccak256": "0x5abe7bcca483cf11fe101b84fbac3fc464f5dad0f0f3b3d6bc8d5b8f0b85754b",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://df0f407299b6b18ed76dd2be73eb11f570e23913fc82177b3c155bf5c8bbb508",
-				"dweb:/ipfs/QmWaXJFHrgDo6aDqcbB82YjcrNpBHNpW6uk7Tz8UBvv493"
+				"bzz-raw://07a0950ca224f0144507512fbcbb0da04d293f843ed1a7279a24db0befc053c4",
+				"dweb:/ipfs/QmRLTjWLW9RNH4oE3BVvRYHbUkzWTZGuCbcLokWSwyt4cY"
 			]
 		}
 	},
