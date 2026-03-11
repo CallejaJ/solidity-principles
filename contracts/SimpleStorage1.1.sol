@@ -8,7 +8,7 @@ contract SimpleStorage {
         storedData = multiply(storedData , x);
     }
 
-     function multiply(uint a, uint b) pure public  returns (uint) {
-        return a * b ;
+     function multiply(uint c, uint d) pure public  returns (uint) {
+        return c * d ;
     }
 }
