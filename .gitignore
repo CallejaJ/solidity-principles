@@ -1,0 +1,9 @@
+# Ignorar todo por defecto
+*
+ 
+# Permitir archivos de Solidity
+!*.sol
+ 
+# Permitir este fichero y el readme
+!.gitignore
+!README.md
