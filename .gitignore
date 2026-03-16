@@ -1,11 +1,10 @@
-# Ignorar todo por defecto
-*
- 
-# Permitir carpetas necesarias
-!contracts/
-!contracts/*.sol
- 
-# Permitir archivos raiz
-!.gitignore
-!README.md
- 
+# Remix folders
+.deps/
+.states/
+artifacts/
+scripts/
+tests/
+
+# Remix config files
+.prettierrc.json
+remix.config.json
