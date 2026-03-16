@@ -1,9 +1,11 @@
 # Ignorar todo por defecto
 *
  
-# Permitir archivos de Solidity
-!*.sol
+# Permitir carpetas necesarias
+!contracts/
+!contracts/*.sol
  
-# Permitir este fichero y el readme
+# Permitir archivos raiz
 !.gitignore
 !README.md
+ 
