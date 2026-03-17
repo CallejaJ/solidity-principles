@@ -1,13 +1,13 @@
 # Solidity Principles
 
-<div align="center">
+<div align="left">
     <img src="https://img.shields.io/badge/Solidity-0.8+-363636?style=for-the-badge&logo=solidity" alt="Solidity" />
     <img src="https://img.shields.io/badge/Ethereum-EVM-3C3C3D?style=for-the-badge&logo=ethereum" alt="Ethereum" />
     <img src="https://img.shields.io/badge/Remix-IDE-181E29?style=for-the-badge" alt="Remix" />
     <img src="https://img.shields.io/badge/License-GPL--3.0-blue?style=for-the-badge" alt="License" />
 </div>
 
-<p align="center">
+<p align="left">
     <i>Progressive smart contract exercises exploring storage patterns, access control, and on-chain data structures in Solidity.</i>
 </p>
 
