@@ -19,6 +19,9 @@ struct Person {
 
 Person [] public listOfPeople; // []
 
+// chelsea => 232
+mapping(string => uint256) public nameToFavoriteNumber;
+
 // uint256 public favoriteNumber; 
 // Person public pat = Person({favoriteNumber: 7, name: "Pat"});
 
@@ -33,6 +36,7 @@ function retrieve() public view returns(uint256) {
 
 function addPerson(string memory _name, uint256 _favoriteNumber) public {
     listOfPeople.push(Person(_favoriteNumber, _name));
+    nameToFavoriteNumber[_name] = _favoriteNumber;
 }
 
 }
